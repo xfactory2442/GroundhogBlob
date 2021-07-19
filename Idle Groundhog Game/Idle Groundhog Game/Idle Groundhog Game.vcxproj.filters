@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{1f701863-da35-46d5-b5a5-0edbc98c325d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{21974209-6067-4737-91ea-c6558ede60f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TabClasses">
+      <UniqueIdentifier>{893af8a1-f24b-48be-a22b-6865547362bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tab">
+      <UniqueIdentifier>{996e380c-868c-4e72-9ee1-5a4e5116b246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TabClasses">
+      <UniqueIdentifier>{c04c6b2a-b33d-4162-8188-15ffa0b5dc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tab">
+      <UniqueIdentifier>{04db27db-5cd2-4250-95dd-ae0994fb2ae5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabs.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainSkillsTab.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="LogTab.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Unlocks.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicTabBackground.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillsManager.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestTab.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeClass.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetInfoTab.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralFunctions.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationManager.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="TravelTab.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\TabClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Source Files\TabClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Source Files\TabClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TravelNode.cpp">
+      <Filter>Source Files\TabClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoWindow.cpp">
+      <Filter>Source Files\TabClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionTab.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveAndLoad.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabs.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainSkillsTab.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="LogTab.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Unlocks.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTabBackground.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillsManager.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestTab.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeClass.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetInfoTab.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralFunctions.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationManager.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="TravelTab.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\TabClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Header Files\TabClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Header Files\TabClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TravelNode.h">
+      <Filter>Header Files\TabClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoWindow.h">
+      <Filter>Header Files\TabClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionTab.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveAndLoad.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
