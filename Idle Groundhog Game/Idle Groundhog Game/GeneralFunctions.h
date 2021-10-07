@@ -11,5 +11,6 @@ public:
 	static string FormatLine(string s, int maxLineSize);
 	static string FormatLine(string s, int maxLineSize, int lines);
 	static string FormatReadInText(string s);
+	static uint32_t NumTimesDivisibleBy(float number, float denominator);
 };
 

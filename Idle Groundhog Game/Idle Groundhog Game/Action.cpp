@@ -278,7 +278,11 @@ float Action::CalculateTalent()
 
 void Action::Reset()
 {
+	float t = GeneralFunctions::NumTimesDivisibleBy(talent, 10);
 	talent += CalculateTalent();
+	if (t > 2 && t < GeneralFunctions::NumTimesDivisibleBy(talent, 10)) {
+		maxTimesFilledInOneDay++;
+	}
 	timesFilled = 0;
 	fill = 0;
 	fillMax = initFillMax;

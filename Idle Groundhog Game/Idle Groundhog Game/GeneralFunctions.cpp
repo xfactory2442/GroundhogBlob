@@ -95,3 +95,17 @@ string GeneralFunctions::FormatReadInText(string s)
     }
     return s;
 }
+
+uint32_t GeneralFunctions::NumTimesDivisibleBy(float number, float denominator)
+{
+    uint32_t num_times = 0;
+    do {
+        number /= denominator;
+        if (number > denominator) {
+            num_times++;
+            continue;
+        }
+        return num_times;
+    } while (true);
+    return 0;
+}
