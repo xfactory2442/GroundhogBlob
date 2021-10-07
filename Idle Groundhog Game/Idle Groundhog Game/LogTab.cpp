@@ -32,7 +32,7 @@ void LogTab::AddToLog(string text)
         log[i].setPosition(log[i].getPosition() + sf::Vector2f(0, 20.0f * (float)lines));
     }
     //If a log goes off the screen, delete it.
-    if (log.size() > 0 && log.front().getPosition().y + 20.0f > window->getSize().y) {
+    if (log.size() > 0 && log.front().getPosition().y + 20.0f < window->getSize().y) {
         log.erase(log.begin());
     }
 

@@ -1,4 +1,3 @@
 ﻿  Using triplet "x64-windows" from "C:\Users\aleys\vcpkg\installed\x64-windows\"
-  Action.cpp
-C:\Users\aleys\Desktop\Visual Studio Projects\GroundhogBlob\Idle Groundhog Game\Idle Groundhog Game\Action.cpp(281,10): warning C4244: 'initializing': conversion from 'uint32_t' to 'float', possible loss of data
-  Idle Groundhog Game.vcxproj -> C:\Users\aleys\Desktop\Visual Studio Projects\GroundhogBlob\Idle Groundhog Game\x64\Debug\Idle Groundhog Game.exe
+  Unlocks.cpp
+  Idle Groundhog Game.vcxproj -> C:\Users\aleys\Desktop\Visual Studio Projects\Idle Groundhog Game\x64\Debug\Idle Groundhog Game.exe
