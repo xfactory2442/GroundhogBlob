@@ -1,0 +1,7 @@
+﻿  Using triplet "x64-windows" from "C:\Users\aleys\vcpkg\installed\x64-windows\"
+  Unlocks.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1679 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Idle Groundhog Game.vcxproj -> C:\Users\aleys\Desktop\Visual Studio Projects\GroundhogBlob\Idle Groundhog Game\x64\Release\Idle Groundhog Game.exe

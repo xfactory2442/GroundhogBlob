@@ -1,0 +1,4 @@
+Name,Description,Skill,Skill,Skill,Skill,Skill,Skill,Action,Action,Action,Action,Action,Action,Quests
+Awareness...?,A fuzzy thought starts to surface in the blobs mind…,0,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1
+Movement,The blob wiggles its body around.,1,10,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2
+A stick!,The blob notices an object sat near its shelter. Maybe it could hold it?,1,10,2,1,-1,0,2,2,-1,0,-1,0,-1

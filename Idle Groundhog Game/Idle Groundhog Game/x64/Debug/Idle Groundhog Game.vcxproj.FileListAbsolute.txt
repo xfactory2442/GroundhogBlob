@@ -1,1 +1,2 @@
 C:\Users\aleys\Desktop\Visual Studio Projects\Idle Groundhog Game\Idle Groundhog Game\x64\Debug\Idle Groundhog Game.vcxproj.CopyComplete
+C:\Users\aleys\Desktop\Visual Studio Projects\GroundhogBlob\Idle Groundhog Game\Idle Groundhog Game\x64\Debug\Idle Groundhog Game.vcxproj.CopyComplete

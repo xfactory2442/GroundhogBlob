@@ -113,13 +113,16 @@ void Unlocks::LoadUnlocks(vector<int> unlocks)
 {
 	unlockRequirements.clear();
 	int j = 0;
-	for (int i = 0; i < numUnlocks; i++) {
+	for (int i = 0; i < requirementsHolder.size(); i++) {
 		unlockRequirements.push_back(requirementsHolder[i]);
 		if (unlockRequirements.back().num != unlocks[j]) {
 			UnlockUnlocks(unlockRequirements.back(), j);
 		}
 		else {
 			j++;
+			if (j >= unlocks.size()) {
+				break;
+			}
 		}
 	}
 }
